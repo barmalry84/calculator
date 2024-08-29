@@ -10,7 +10,7 @@ jobs:
   unit-test:
     run-on: ubuntu-latest
 
-    step:
+    steps:
     - name: Checkout (Git pull)
       uses: actions/checkout@v4
 
