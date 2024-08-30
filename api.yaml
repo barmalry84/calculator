@@ -5,7 +5,7 @@ metadata:
   # This is an extra long description with Markdown
   description: something something.
   links:
-    - url: https://srv-git-01-hh1.alinghi.tipp24.net/platform-services/backstage
+    - url: https://github.com/barmalry84/calculator
       title: GitHub Repo
       icon: githubs
   annotations:
