@@ -10,7 +10,6 @@ metadata:
       icon: githubs
   annotations:
     github.com/project-slug: barmalry84/calculator
-
 spec:
   type: service
   lifecycle: production
