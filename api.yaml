@@ -13,4 +13,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: barmalry84
+  owner: user:default/barmalry84
