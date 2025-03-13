@@ -1,0 +1,19 @@
+name: Jira Approved Workflow
+
+on:
+  repository_dispatch:
+    types: [jira_ticket_approved]
+
+jobs:
+  run_job:
+    runs-on: ubuntu
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Print Jira Data
+        run: |
+            echo "Jira Ticket Approved - Payload: ${{ github.event.client_payload.assignee }}"
+
+      - name: Your Custom Action
+        run: echo "Some custom logic"
